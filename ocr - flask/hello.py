@@ -1,5 +1,5 @@
 from __future__ import division, print_function
-from flask import Flask,request, render_template
+from flask import Flask, request, render_template
 #from werkzeug import secure_filename
 from werkzeug.utils import secure_filename
 from gevent.pywsgi import WSGIServer
@@ -10,7 +10,7 @@ import pytesseract
 import sys 
 from pdf2image import convert_from_path 
 import os 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 import sys
 import os.path
 import glob
